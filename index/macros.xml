@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<diff>
+ <add sel="/index">
+  <entry name="weapon_bor_l_beam_02_mk1_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\props\weaponsystems\boron\macros\weapon_bor_l_beam_02_mk1_macro"/>
+  <entry name="turret_bor_l_laser_02_mk1_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\props\weaponsystems\boron\macros\turret_bor_l_laser_02_mk1_macro"/>
+  <entry name="turret_bor_m_laser_03_mk1_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\props\weaponsystems\boron\macros\turret_bor_m_laser_03_mk1_macro"/>
+  <entry name="turret_bor_m_laser_04_mk1_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\props\weaponsystems\boron\macros\turret_bor_m_laser_04_mk1_macro"/>
+  <entry name="weapon_bor_s_laser_02_mk1_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\props\weaponsystems\boron\macros\weapon_bor_s_laser_02_mk1_macro"/>
+  <entry name="weapon_bor_m_laser_02_mk1_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\props\weaponsystems\boron\macros\weapon_bor_m_laser_02_mk1_macro"/>
+  <entry name="weapon_bor_s_laser_super_01_mk1_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\props\weaponsystems\boron\macros\weapon_bor_s_laser_super_01_mk1_macro"/>
+ </add>
+</diff>

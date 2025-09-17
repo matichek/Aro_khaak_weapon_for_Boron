@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<diff>
+    <!--
+    For anyone reading this in the future: I've tried everything to use pre-existing textures,
+    but for some arbitrary reason no matter how I've tried, it never worked. So instead we do what every mod
+    does and simply copy&paste an existing icon to the correct location, rename it, and wildcard import it.
+
+    I officially hate this. I do not condone this. It feels like a hack. And yet, here we are...
+    -->
+    <add sel="/icons">
+		<icon name="upgrade_*" texture="extensions\Aro_khaak_weapon_for_Boron\assets\fx\gui\textures\upgrades\*.tga" height="256" width="256"/>
+    </add>
+</diff>

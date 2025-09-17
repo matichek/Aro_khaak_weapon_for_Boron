@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+
+  <add sel="/wares">
+ 
+    <ware id="weapon_bor_l_beam_02_mk1" name="{20105,3084}" description="{20105,3082}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+     <price min="1200610" average="1600814" max="2049042"/>
+     <production time="10" amount="1" method="default" name="{20206,801}">
+      <primary>
+       <ware ware="advancedelectronics" amount="161"/>
+       <ware ware="energycells" amount="78"/>
+       <ware ware="weaponcomponents" amount="380"/>
+      </primary>
+     </production>
+     <component ref="weapon_bor_l_beam_02_mk1_macro" amount="1"/>
+     <restriction licence="generaluseequipment"/>
+     <use threshold="0"/>
+     <owner faction="boron"/>
+    </ware>
+	<ware id="turret_bor_l_laser_02_mk1" name="{20105,5484}" description="{20105,5482}" group="weapons" transport="equipment" volume="1" tags="equipment turret">
+      <price min="58702" average="70725" max="82748" />
+      <production time="10" amount="1" method="default" name="{20206,801}">
+        <primary>
+          <ware ware="advancedelectronics" amount="5" />
+          <ware ware="energycells" amount="10" />
+          <ware ware="turretcomponents" amount="24" />
+        </primary>
+      </production>
+      <component ref="turret_bor_l_laser_02_mk1_macro" amount="1"/>
+      <restriction licence="generaluseequipment" />
+      <use threshold="0" />
+      <owner faction="boron" />
+    </ware>
+	<ware id="turret_bor_m_laser_03_mk1" name="{20105,4804}" description="{20105,4802}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+      <price min="21779" average="26240" max="30701" />
+      <production time="10" amount="1" method="default" name="{20206,801}">
+        <primary>
+          <ware ware="advancedelectronics" amount="1" />
+          <ware ware="energycells" amount="5" />
+          <ware ware="turretcomponents" amount="12" />
+        </primary>
+      </production>
+      <component ref="turret_bor_m_laser_03_mk1_macro" amount="1"/>
+      <restriction licence="generaluseequipment" />
+      <use threshold="0" />
+      <owner faction="boron" />
+    </ware>
+    <ware id="turret_bor_m_laser_04_mk1" name="{20105,4804}" description="{20105,4802}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+      <price min="21779" average="26240" max="30701" />
+      <production time="10" amount="1" method="default" name="{20206,801}">
+        <primary>
+          <ware ware="advancedelectronics" amount="1" />
+          <ware ware="energycells" amount="5" />
+          <ware ware="turretcomponents" amount="12" />
+        </primary>
+      </production>
+      <component ref="turret_bor_m_laser_04_mk1_macro" amount="1"/>
+      <restriction licence="generaluseequipment" />
+      <use threshold="0" />
+      <owner faction="boron" />
+    </ware>
+	<ware id="weapon_bor_m_laser_02_mk1" name="{20105,2404}" description="{20105,2402}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+      <price min="67261" average="89681" max="114792" />
+      <production time="10" amount="1" method="default" name="{20206,801}">
+        <primary>
+          <ware ware="advancedelectronics" amount="3" />
+          <ware ware="energycells" amount="37" />
+          <ware ware="weaponcomponents" amount="42" />
+        </primary>
+      </production>
+      <component ref="weapon_bor_m_laser_02_mk1_macro" amount="1"/>
+      <restriction licence="generaluseequipment" />
+      <use threshold="0" />
+      <owner faction="boron" />
+    </ware>
+	<ware id="weapon_bor_s_laser_02_mk1" name="{20105,1404}" description="{20105,1402}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+      <price min="67261" average="89681" max="114792" />
+      <production time="10" amount="1" method="default" name="{20206,801}">
+        <primary>
+          <ware ware="advancedelectronics" amount="3" />
+          <ware ware="energycells" amount="37" />
+          <ware ware="weaponcomponents" amount="42" />
+        </primary>
+      </production>
+      <component ref="weapon_bor_s_laser_02_mk1_macro" amount="1"/>
+      <restriction licence="generaluseequipment" />
+      <use threshold="0" />
+      <owner faction="boron" />
+    </ware>
+
+	<ware id="weapon_bor_s_laser_super_01_mk1" name="{20105,1404}" description="{20105,1402}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+      <price min="120000" average="150000" max="180000" />
+      <production time="10" amount="1" method="default" name="{20206,801}">
+        <primary>
+          <ware ware="advancedelectronics" amount="8" />
+          <ware ware="energycells" amount="50" />
+          <ware ware="weaponcomponents" amount="60" />
+        </primary>
+      </production>
+      <component ref="weapon_bor_s_laser_super_01_mk1_macro" amount="1"/>
+      <restriction licence="generaluseequipment" />
+      <use threshold="0" />
+      <owner faction="boron" />
+    </ware>
+
+  </add>
+
+
+</diff>

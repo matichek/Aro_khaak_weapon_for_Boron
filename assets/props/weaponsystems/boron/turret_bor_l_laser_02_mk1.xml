@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported on 2024-05-07 13:41:24-->
+<components>
+  <component name="turret_bor_l_laser_02_mk1" class="turret">
+    <source geometry="extensions\ego_dlc_boron\assets\props\weaponsystems\boron\turret_bor_l_laser_01_mk1_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForpart_socket" tags="animation part ">
+        <offset>
+          <position x="-2.357e-07" y="1.689345" z="0.4997516" />
+        </offset>
+        <animations>
+          <animation name="turret_inactive" start="1" end="2" />
+          <animation name="turret_activating" start="2" end="45" />
+          <animation name="turret_active" start="45" end="53" />
+          <animation name="turret_deactivating" start="53" end="98" />
+        </animations>
+        <parts>
+          <part name="part_socket" wreck="part_socket_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_hullpattern_01" />
+                  <material id="2" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="3" ref="p2boron.bor_p2_fx_01" />
+                  <material id="4" ref="p2boron.bor_p2_alphatexture_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_hullpattern_01" />
+                  <material id="2" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="3" ref="p2boron.bor_p2_fx_01" />
+                  <material id="4" ref="p2boron.bor_p2_alphatexture_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_hullpattern_01" />
+                  <material id="2" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="3" ref="p2boron.bor_p2_fx_01" />
+                  <material id="4" ref="p2boron.bor_p2_alphatexture_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_hullpattern_01" />
+                  <material id="2" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="3" ref="p2boron.bor_p2_fx_01" />
+                  <material id="4" ref="p2boron.bor_p2_alphatexture_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.643824" y="1.689345" z="15.18666" />
+              <center x="2.357e-07" y="0" z="4.768e-07" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="con_turret_01" tags="advanced combat component large turret " />
+      <connection name="ConnectionForfx_socket_decals" tags="detail_m forceoutline fx nocollision part ">
+        <offset>
+          <position x="0.05428725" y="0.9644833" z="0.8642654" />
+        </offset>
+        <parts>
+          <part name="fx_socket_decals">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_decal_01" />
+                  <material id="2" ref="p2boron.bor_p2_alphatexture_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.437172" y="1.426047" z="14.015" />
+              <center x="-0.05428886" y="0.9490883" z="0.132998" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForanim_glow" tags="animation detail_l forceoutline iklink nocollision part textureanimation " parent="part_socket">
+        <offset>
+          <position x="3.835e-07" y="0.0377667" z="-0.08159637" />
+        </offset>
+        <parts>
+          <part name="anim_glow">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2fx.fx_p2_gradientcolour_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="8.082323" y="1.210288" z="13.37682" />
+              <center x="-1.478e-07" y="0" z="4.768e-07" />
+            </size>
+            <uv_animations>
+              <uv_animation rotaroundcenter="1" mapchannel="1">
+                <uv_property name="u_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="2" value="0" />
+                  <key frame="10" value="0.3" />
+                  <key frame="45" value="0.3" />
+                  <key frame="56" value="0.3" />
+                  <key frame="93" value="0.3" />
+                  <key frame="101" value="0" />
+                </uv_property>
+                <uv_property name="v_offset" controller="linear_float">
+                  <key frame="1" value="0" />
+                  <key frame="2" value="0" />
+                  <key frame="10" value="0" />
+                  <key frame="45" value="0" />
+                  <key frame="56" value="0" />
+                  <key frame="93" value="0" />
+                  <key frame="101" value="0" />
+                </uv_property>
+              </uv_animation>
+            </uv_animations>
+          </part>
+        </parts>
+      </connection>
+      <connection name="con_aimtarget_01" tags="aimtarget ">
+        <offset>
+          <position x="0" y="5.358225" z="-2.731964" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForpart_rotator" tags="animation forceoutline iklink nocollision part " parent="part_socket">
+        <offset>
+          <position x="2.286e-07" y="3.201494" z="-4.449481" />
+        </offset>
+        <restrictions>
+          <restriction type="rotation_y" />
+        </restrictions>
+        <parts>
+          <part name="part_rotator">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_hullpattern_01" />
+                  <material id="2" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="3" ref="p2boron.bor_p2_fx_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_hullpattern_01" />
+                  <material id="2" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="3" ref="p2boron.bor_p2_fx_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_hullpattern_01" />
+                  <material id="2" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="3" ref="p2boron.bor_p2_fx_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_hullpattern_01" />
+                  <material id="2" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="3" ref="p2boron.bor_p2_fx_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="6.408541" y="4.250357" z="10.27368" />
+              <center x="7.1e-09" y="-1.002775" z="0.6461914" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForfx_rotator_details" tags="detail_l forceoutline fx iklink nocollision part " parent="part_rotator">
+        <offset>
+          <position x="7.15327e-05" y="-0.0258708" z="-4.201735" />
+        </offset>
+        <parts>
+          <part name="fx_rotator_details">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2generic.gen_p2_decal_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="5.736123" y="2.1926" z="6.097807" />
+              <center x="-7.20024e-05" y="0.9228745" z="1.781312" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_gun" tags="forceoutline iklink nocollision part " parent="part_rotator">
+        <offset>
+          <position x="7.1e-09" y="-0.5028605" z="-2.186795" />
+        </offset>
+        <restrictions>
+          <restriction type="rotation_x">
+            <limits>
+              <min value="-5" />
+              <max value="89" />
+            </limits>
+          </restriction>
+        </restrictions>
+        <parts>
+          <part name="part_gun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="2" ref="p2boron.bor_p2_hullpattern_03_a" />
+                  <material id="3" ref="p2boron.bor_p2_fx_01" />
+                </materials>
+              </lod>
+              <lod index="1">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="2" ref="p2boron.bor_p2_hullpattern_03_a" />
+                  <material id="3" ref="p2boron.bor_p2_fx_01" />
+                </materials>
+              </lod>
+              <lod index="2">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="2" ref="p2boron.bor_p2_hullpattern_03_a" />
+                  <material id="3" ref="p2boron.bor_p2_fx_01" />
+                </materials>
+              </lod>
+              <lod index="3">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="2" ref="p2boron.bor_p2_hullpattern_03_a" />
+                  <material id="3" ref="p2boron.bor_p2_fx_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="1.316296" y="2.783244" z="11.29199" />
+              <center x="0" y="0.8248806" z="10.08533" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="con_laser_01" tags="laser " parent="part_gun">
+        <offset>
+          <position x="-1.582e-07" y="1.059444" z="36.38381" />
+        </offset>
+      </connection>
+      <connection name="con_laser_02" tags="laser " parent="part_gun">
+        <offset>
+          <position x="-1.582e-07" y="-0.9693632" z="36.38381" />
+        </offset>
+      </connection>
+      <connection name="ConnectionFordetail_xl_barrel" tags="animation detail_xl forceoutline nocollision part " parent="part_gun">
+        <offset>
+          <position x="4.6e-08" y="0.02989578" z="13.60555" />
+        </offset>
+      </connection>
+      <connection name="ConnectionForpart_gun_details" tags="detail_l forceoutline fx iklink nocollision part " parent="part_gun">
+        <offset>
+          <position x="-5.2658e-06" y="0.2179122" z="12.6385" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>
