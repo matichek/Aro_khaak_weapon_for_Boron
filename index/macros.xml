@@ -8,5 +8,6 @@
   <entry name="weapon_bor_s_laser_02_mk1_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\props\weaponsystems\boron\macros\weapon_bor_s_laser_02_mk1_macro"/>
   <entry name="weapon_bor_m_laser_02_mk1_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\props\weaponsystems\boron\macros\weapon_bor_m_laser_02_mk1_macro"/>
   <entry name="weapon_bor_s_laser_super_01_mk1_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\props\weaponsystems\boron\macros\weapon_bor_s_laser_super_01_mk1_macro"/>
+  <entry name="bullet_kha_s_beam_super_01_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\fx\weaponfx\macros\bullet_kha_s_beam_super_01_macro"/>
  </add>
 </diff>

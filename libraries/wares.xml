@@ -88,9 +88,9 @@
       <owner faction="boron" />
     </ware>
 
-	<ware id="weapon_bor_s_laser_super_01_mk1" name="{20105,1404}" description="{20105,1402}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+	<ware id="weapon_bor_s_laser_super_01_mk1" name="Boron Khaak S Laser MK3" description="Advanced Boron laser weapon with enhanced range and damage output" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
       <price min="120000" average="150000" max="180000" />
-      <production time="10" amount="1" method="default" name="{20206,801}">
+      <production time="10" amount="1" method="default" name="Universal">
         <primary>
           <ware ware="advancedelectronics" amount="8" />
           <ware ware="energycells" amount="50" />
