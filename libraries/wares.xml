@@ -103,6 +103,21 @@
       <owner faction="boron" />
     </ware>
 
+	<ware id="weapon_bor_m_laser_super_01_mk1" name="Boron Khaak M Laser MK3" description="Advanced Boron medium laser weapon with enhanced range and damage output" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+      <price min="180000" average="220000" max="260000" />
+      <production time="15" amount="1" method="default" name="Universal">
+        <primary>
+          <ware ware="advancedelectronics" amount="12" />
+          <ware ware="energycells" amount="75" />
+          <ware ware="weaponcomponents" amount="80" />
+        </primary>
+      </production>
+      <component ref="weapon_bor_m_laser_super_01_mk1_macro" amount="1"/>
+      <restriction licence="generaluseequipment" />
+      <use threshold="0" />
+      <owner faction="boron" />
+    </ware>
+
   </add>
 
 

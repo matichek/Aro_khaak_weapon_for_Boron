@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<macros>
+  <macro name="weapon_bor_m_laser_super_01_mk1_macro" class="weapon">
+    <component ref="weapon_bor_m_laser_super_01_mk1" />
+    <properties>
+      <identification name="Boron Khaak M Laser MK3" basename="Super M Laser" shortname="KHA-M" makerrace="boron" description="Advanced Boron medium laser weapon with enhanced range and damage output" mk="1" />
+      <bullet class="bullet_kha_m_beam_super_01_macro" />
+      <heat overheat="25000" cooldelay="0.3" coolrate="5000" reenable="8000" />
+      <rotationspeed max="100" />
+      <rotationacceleration max="200" />
+      <hull max="1000" hittable="0" />
+    </properties>
+  </macro>
+</macros>
