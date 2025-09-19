@@ -6,11 +6,9 @@
       <identification name="Boron Khaak S Laser MK3" basename="Super Laser" shortname="KHA" makerrace="boron" description="Advanced Boron laser weapon with enhanced range and damage output" mk="1" />
       <bullet class="bullet_kha_s_beam_super_01_macro" />
       <heat overheat="25000" cooldelay="0.3" coolrate="5000" reenable="8000" />
-      <rotationspeed max="60" />
-      <rotationacceleration max="120" />
+      <rotationspeed max="120" />
+      <rotationacceleration max="240" />
       <hull max="500" hittable="0" />
     </properties>
   </macro>
 </macros>
-
-

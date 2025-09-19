@@ -4,7 +4,7 @@
     <component ref="bullet_ter_s_beam_01_mk2" />
     <properties>
       <ammunition value="1" reload="0.1" />
-      <bullet speed="96000" lifetime="0.20" range="4000" amount="1" barrelamount="1" delay="0.1" icon="weapon_burst_mk2" timediff="0.05" angle="2" maxhits="1" ricochet="0" restitution="1" scale="1" attach="1" />
+      <bullet speed="96000" lifetime="0.20" range="6000" amount="1" barrelamount="1" delay="0.1" icon="weapon_burst_mk2" timediff="0.05" angle="2" maxhits="1" ricochet="0" restitution="1" scale="1" attach="1" />
       <heat value="500" />
       <reload rate="10" />
       <damage value="25000" repair="0" />
