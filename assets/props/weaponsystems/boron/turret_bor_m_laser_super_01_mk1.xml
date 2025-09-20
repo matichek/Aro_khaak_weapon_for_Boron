@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<components>
+  <component name="turret_bor_m_laser_super_01_mk1" class="turret">
+    <source geometry="extensions\ego_dlc_boron\assets\props\weaponsystems\boron\turret_bor_m_mining_02_mk1_data" />
+    <layers>
+      <layer />
+    </layers>
+    <connections>
+      <connection name="container" tags="contents" value="0" />
+      <connection name="position" tags="position" value="1" />
+      <connection name="ConnectionForpart_socket" tags="animation part ">
+        <offset>
+          <position x="7.195e-07" y="0.4634921" z="0.1251084" />
+        </offset>
+        <animations>
+          <animation name="turret_inactive" start="1" end="2" />
+          <animation name="turret_activating" start="2" end="45" />
+          <animation name="turret_active" start="45" end="53" />
+          <animation name="turret_deactivating" start="53" end="98" />
+        </animations>
+        <parts>
+          <part name="part_socket" wreck="part_socket_wreck">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_hullpattern_03_a" />
+                  <material id="2" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="3" ref="p2boron.bor_p2_fx_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="3.275054" y="0.6475798" z="3.987159" />
+              <center x="-7.195e-07" y="0.1840877" z="-0.1080007" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_rotator" tags="animation forceoutline iklink nocollision part " parent="part_socket">
+        <offset>
+          <position x="-7.195e-07" y="0.7855473" z="-1.212247" />
+        </offset>
+        <restrictions>
+          <restriction type="rotation_y" />
+        </restrictions>
+        <parts>
+          <part name="part_rotator">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_hullpattern_03_a" />
+                  <material id="2" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="3" ref="p2boron.bor_p2_fx_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="2.146764" y="1.379901" z="3.15926" />
+              <center x="0" y="0.1799011" z="0.3566408" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="ConnectionForpart_gun" tags="forceoutline iklink nocollision part " parent="part_rotator">
+        <offset>
+          <position x="1.50968e-05" y="-0.05288804" z="-0.1627563" />
+        </offset>
+        <restrictions>
+          <restriction type="rotation_x">
+            <limits>
+              <min value="-7" />
+              <max value="89" />
+            </limits>
+          </restriction>
+        </restrictions>
+        <parts>
+          <part name="part_gun">
+            <lods>
+              <lod index="0">
+                <materials>
+                  <material id="1" ref="p2boron.bor_p2_hulltexture_01" />
+                  <material id="2" ref="p2boron.bor_p2_hullpattern_03_a" />
+                  <material id="3" ref="p2boron.bor_p2_fx_01" />
+                </materials>
+              </lod>
+            </lods>
+            <size>
+              <max x="0.5542428" y="1.09882" z="3.050046" />
+              <center x="-1.68e-08" y="0.5844768" z="2.180839" />
+            </size>
+          </part>
+        </parts>
+      </connection>
+      <connection name="con_laser_01" tags="laser " parent="part_gun">
+        <offset>
+          <position x="3.182e-07" y="0.4537508" z="5.180279" />
+        </offset>
+      </connection>
+      <connection name="con_turret" tags="advanced component hittable medium combat turret " />
+      <connection name="con_aimtarget_01" tags="aimtarget ">
+        <offset>
+          <position x="0" y="1.696513" z="-0.5556629" />
+        </offset>
+      </connection>
+    </connections>
+  </component>
+</components>

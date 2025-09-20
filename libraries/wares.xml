@@ -118,6 +118,36 @@
       <owner faction="boron" />
     </ware>
 
+	<ware id="turret_bor_m_laser_super_01_mk1" name="Boron Khaak M Turret MK3" description="Advanced Boron medium turret with devastating laser firepower" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+      <price min="250000" average="300000" max="350000" />
+      <production time="20" amount="1" method="default" name="Universal">
+        <primary>
+          <ware ware="advancedelectronics" amount="15" />
+          <ware ware="energycells" amount="100" />
+          <ware ware="turretcomponents" amount="75" />
+        </primary>
+      </production>
+      <component ref="turret_bor_m_laser_super_01_mk1_macro" amount="1"/>
+      <restriction licence="generaluseequipment" />
+      <use threshold="0" />
+      <owner faction="boron" />
+    </ware>
+
+	<ware id="turret_bor_l_laser_super_01_mk1" name="Boron Khaak L Turret MK3" description="Advanced Boron large turret with devastating laser firepower" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+      <price min="450000" average="550000" max="650000" />
+      <production time="30" amount="1" method="default" name="Universal">
+        <primary>
+          <ware ware="advancedelectronics" amount="25" />
+          <ware ware="energycells" amount="150" />
+          <ware ware="turretcomponents" amount="100" />
+        </primary>
+      </production>
+      <component ref="turret_bor_l_laser_super_01_mk1_macro" amount="1"/>
+      <restriction licence="generaluseequipment" />
+      <use threshold="0" />
+      <owner faction="boron" />
+    </ware>
+
   </add>
 
 

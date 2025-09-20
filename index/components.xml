@@ -9,5 +9,7 @@
   <entry name="weapon_bor_m_laser_02_mk1" value="extensions\Aro_khaak_weapon_for_Boron\assets\props\weaponsystems\boron\weapon_bor_m_laser_02_mk1"/>
   <entry name="weapon_bor_s_laser_super_01_mk1" value="extensions\Aro_khaak_weapon_for_Boron\assets\props\weaponsystems\boron\weapon_bor_s_laser_super_01_mk1"/>
   <entry name="weapon_bor_m_laser_super_01_mk1" value="extensions\Aro_khaak_weapon_for_Boron\assets\props\weaponsystems\boron\weapon_bor_m_laser_super_01_mk1"/>
+  <entry name="turret_bor_m_laser_super_01_mk1" value="extensions\Aro_khaak_weapon_for_Boron\assets\props\weaponsystems\boron\turret_bor_m_laser_super_01_mk1"/>
+  <entry name="turret_bor_l_laser_super_01_mk1" value="extensions\Aro_khaak_weapon_for_Boron\assets\props\weaponsystems\boron\turret_bor_l_laser_super_01_mk1"/>
  </add>
 </diff>
