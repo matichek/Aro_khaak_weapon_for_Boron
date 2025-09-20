@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <components>
   <component name="turret_bor_m_laser_super_01_mk1" class="turret">
-    <source geometry="extensions\ego_dlc_boron\assets\props\weaponsystems\boron\turret_bor_m_mining_02_mk1_data" />
+    <source geometry="extensions\ego_dlc_boron\assets\props\weaponsystems\boron\turret_bor_m_laser_01_mk1_data" />
     <layers>
       <layer />
     </layers>
@@ -96,7 +96,7 @@
           <position x="3.182e-07" y="0.4537508" z="5.180279" />
         </offset>
       </connection>
-      <connection name="con_turret" tags="advanced component hittable medium combat turret " />
+      <connection name="con_turret" tags="advanced combat component medium turret unhittable " />
       <connection name="con_aimtarget_01" tags="aimtarget ">
         <offset>
           <position x="0" y="1.696513" z="-0.5556629" />

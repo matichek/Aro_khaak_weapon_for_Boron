@@ -12,8 +12,8 @@
   <entry name="weapon_bor_m_laser_super_01_mk1_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\props\weaponsystems\boron\macros\weapon_bor_m_laser_super_01_mk1_macro"/>
   <entry name="bullet_kha_m_beam_super_01_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\fx\weaponfx\macros\bullet_kha_m_beam_super_01_macro"/>
   <entry name="turret_bor_m_laser_super_01_mk1_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\props\weaponsystems\boron\macros\turret_bor_m_laser_super_01_mk1_macro"/>
-  <entry name="bullet_kha_m_turret_super_01_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\fx\weaponfx\macros\bullet_kha_m_turret_super_01_macro"/>
+  <entry name="bullet_kha_turret_m_super_01_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\fx\weaponfx\macros\bullet_kha_turret_m_super_01_macro"/>
   <entry name="turret_bor_l_laser_super_01_mk1_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\props\weaponsystems\boron\macros\turret_bor_l_laser_super_01_mk1_macro"/>
-  <entry name="bullet_kha_l_turret_super_01_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\fx\weaponfx\macros\bullet_kha_l_turret_super_01_macro"/>
+  <entry name="bullet_kha_turret_l_super_01_macro" value="extensions\Aro_khaak_weapon_for_Boron\assets\fx\weaponfx\macros\bullet_kha_turret_l_super_01_macro"/>
  </add>
 </diff>

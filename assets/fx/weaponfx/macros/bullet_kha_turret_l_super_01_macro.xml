@@ -1,13 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <macros>
-  <macro name="bullet_kha_l_turret_super_01_macro" class="bullet">
-    <component ref="bullet_ter_m_beam_01_mk2" />
+  <macro name="bullet_kha_turret_l_super_01_macro" class="bullet">
+    <component ref="bullet_ter_l_beam_01_mk1" />
     <properties>
-      <ammunition value="1" reload="1.0" />
-      <bullet speed="96000" lifetime="1.5" range="8000" amount="1" barrelamount="1" icon="weapon_beam_mk1" maxhits="1" ricochet="0" scale="1" attach="1" />
-      <heat value="800" />
-      <reload rate="0.5" />
-      <damage value="25000" repair="0" />
+      <bullet speed="96000" lifetime="2.0" range="8000" amount="1" barrelamount="1" icon="weapon_beam_mk1" restitution="1" maxhits="1" ricochet="0" scale="1" attach="1" />
+      <reload time="2" />
+      <damage value="25000" repair="0" />  
       <effects>
         <impact ref="impact_gen_l_laser_01_mk1" inside="impact_gen_l_laser_01_mk1_inside" />
         <bigobjectimpact ref="impact_gen_l_laser_01_mk1_bigobject" inside="impact_gen_l_laser_01_mk1_bigobject_inside" />
