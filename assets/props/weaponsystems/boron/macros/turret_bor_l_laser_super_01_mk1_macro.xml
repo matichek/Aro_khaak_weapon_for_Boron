@@ -8,7 +8,7 @@
       <rotationspeed max="50" />
       <rotationacceleration max="100" />
       <reload rate="0.5" time="1" />
-      <hull max="5000" threshold="0.2" integrated="1" />
+      <hull max="5000" threshold="0.2" integrated="0" />
       <effects>
         <sefx_damage_low ref="surfacemodule_damage_l_low" />
         <sefx_damage_medium ref="surfacemodule_damage_l_medium" />
