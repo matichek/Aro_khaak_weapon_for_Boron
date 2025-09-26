@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<aiscript name="init_player_blueprints" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="aiscripts.xsd">
+  <order id="DefaultOrder" name="Default Order" description="Default order.">
+    <params />
+    <script>
+      <do_if value="event.name == 'game_started' or event.name == 'game_loaded'">
+        <add_blueprints faction="faction.player">
+          <ware blueprint="weapon_bor_l_beam_02_mk1" />
+          <ware blueprint="turret_bor_l_laser_02_mk1" />
+          <ware blueprint="turret_bor_m_laser_03_mk1" />
+          <ware blueprint="turret_bor_m_laser_04_mk1" />
+          <ware blueprint="weapon_bor_m_laser_02_mk1" />
+          <ware blueprint="weapon_bor_s_laser_02_mk1" />
+          <ware blueprint="weapon_bor_s_laser_super_01_mk1" />
+          <ware blueprint="weapon_bor_m_laser_super_01_mk1" />
+          <ware blueprint="turret_bor_m_laser_super_01_mk1" />
+          <ware blueprint="turret_bor_l_laser_super_01_mk1" />
+        </add_blueprints>
+      </do_if>
+    </script>
+  </order>
+</aiscript>

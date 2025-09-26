@@ -16,6 +16,7 @@
      <restriction licence="generaluseequipment"/>
      <use threshold="0"/>
      <owner faction="boron"/>
+     <owner faction="player" />
     </ware>
 	<ware id="turret_bor_l_laser_02_mk1" name="{20105,5484}" description="{20105,5482}" group="weapons" transport="equipment" volume="1" tags="equipment turret">
       <price min="58702" average="70725" max="82748" />
@@ -30,6 +31,7 @@
       <restriction licence="generaluseequipment" />
       <use threshold="0" />
       <owner faction="boron" />
+      <owner faction="player" />
     </ware>
 	<ware id="turret_bor_m_laser_03_mk1" name="{20105,4804}" description="{20105,4802}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
       <price min="21779" average="26240" max="30701" />
@@ -44,6 +46,7 @@
       <restriction licence="generaluseequipment" />
       <use threshold="0" />
       <owner faction="boron" />
+      <owner faction="player" />
     </ware>
     <ware id="turret_bor_m_laser_04_mk1" name="{20105,4804}" description="{20105,4802}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
       <price min="21779" average="26240" max="30701" />
@@ -58,6 +61,7 @@
       <restriction licence="generaluseequipment" />
       <use threshold="0" />
       <owner faction="boron" />
+      <owner faction="player" />
     </ware>
 	<ware id="weapon_bor_m_laser_02_mk1" name="{20105,2404}" description="{20105,2402}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
       <price min="67261" average="89681" max="114792" />
@@ -72,6 +76,7 @@
       <restriction licence="generaluseequipment" />
       <use threshold="0" />
       <owner faction="boron" />
+      <owner faction="player" />
     </ware>
 	<ware id="weapon_bor_s_laser_02_mk1" name="{20105,1404}" description="{20105,1402}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
       <price min="67261" average="89681" max="114792" />
@@ -86,6 +91,7 @@
       <restriction licence="generaluseequipment" />
       <use threshold="0" />
       <owner faction="boron" />
+      <owner faction="player" />
     </ware>
 
 	<ware id="weapon_bor_s_laser_super_01_mk1" name="Boron Khaak S Laser MK3" description="Advanced Boron laser weapon with enhanced range and damage output" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -101,6 +107,7 @@
       <restriction licence="generaluseequipment" />
       <use threshold="0" />
       <owner faction="boron" />
+	  <owner faction="player" />
     </ware>
 
 	<ware id="weapon_bor_m_laser_super_01_mk1" name="Boron Khaak M Laser MK3" description="Advanced Boron medium laser weapon with enhanced range and damage output" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
@@ -116,6 +123,7 @@
       <restriction licence="generaluseequipment" />
       <use threshold="0" />
       <owner faction="boron" />
+	  <owner faction="player" />
     </ware>
 
 	<ware id="turret_bor_m_laser_super_01_mk1" name="Boron Khaak M Turret MK3" description="Advanced Boron medium turret with devastating laser firepower" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -131,6 +139,7 @@
       <restriction licence="generaluseequipment" />
       <use threshold="0" />
       <owner faction="boron" />
+	  <owner faction="player" />
     </ware>
 
 	<ware id="turret_bor_l_laser_super_01_mk1" name="Boron Khaak L Turret MK3" description="Advanced Boron large turret with devastating laser firepower" group="turrets" transport="equipment" volume="1" tags="equipment turret">
@@ -146,6 +155,7 @@
       <restriction licence="generaluseequipment" />
       <use threshold="0" />
       <owner faction="boron" />
+	  <owner faction="player" />
     </ware>
 
   </add>
