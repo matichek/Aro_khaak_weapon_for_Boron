@@ -2,23 +2,24 @@
 <diff>
 
   <add sel="/wares">
- 
+
     <ware id="weapon_bor_l_beam_02_mk1" name="{20105,3084}" description="{20105,3082}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
-     <price min="1200610" average="1600814" max="2049042"/>
-     <production time="10" amount="1" method="default" name="{20206,801}">
-      <primary>
-       <ware ware="advancedelectronics" amount="161"/>
-       <ware ware="energycells" amount="78"/>
-       <ware ware="weaponcomponents" amount="380"/>
-      </primary>
-     </production>
-     <component ref="weapon_bor_l_beam_02_mk1_macro" amount="1"/>
-     <restriction licence="generaluseequipment"/>
-     <use threshold="0"/>
-     <owner faction="boron"/>
-     <owner faction="player" />
+      <price min="1200610" average="1600814" max="2049042"/>
+      <production time="10" amount="1" method="default" name="{20206,801}">
+        <primary>
+          <ware ware="advancedelectronics" amount="161"/>
+          <ware ware="energycells" amount="78"/>
+          <ware ware="weaponcomponents" amount="380"/>
+        </primary>
+      </production>
+      <component ref="weapon_bor_l_beam_02_mk1_macro" amount="1"/>
+      <restriction licence="generaluseequipment"/>
+      <use threshold="0"/>
+      <owner faction="boron"/>
+      <owner faction="player" />
     </ware>
-	<ware id="turret_bor_l_laser_02_mk1" name="{20105,5484}" description="{20105,5482}" group="weapons" transport="equipment" volume="1" tags="equipment turret">
+
+    <ware id="turret_bor_l_laser_02_mk1" name="{20105,5484}" description="{20105,5482}" group="weapons" transport="equipment" volume="1" tags="equipment turret">
       <price min="58702" average="70725" max="82748" />
       <production time="10" amount="1" method="default" name="{20206,801}">
         <primary>
@@ -33,7 +34,8 @@
       <owner faction="boron" />
       <owner faction="player" />
     </ware>
-	<ware id="turret_bor_m_laser_03_mk1" name="{20105,4804}" description="{20105,4802}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+
+    <ware id="turret_bor_m_laser_03_mk1" name="{20105,4804}" description="{20105,4802}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
       <price min="21779" average="26240" max="30701" />
       <production time="10" amount="1" method="default" name="{20206,801}">
         <primary>
@@ -48,6 +50,7 @@
       <owner faction="boron" />
       <owner faction="player" />
     </ware>
+
     <ware id="turret_bor_m_laser_04_mk1" name="{20105,4804}" description="{20105,4802}" group="turrets" transport="equipment" volume="1" tags="equipment turret">
       <price min="21779" average="26240" max="30701" />
       <production time="10" amount="1" method="default" name="{20206,801}">
@@ -63,7 +66,8 @@
       <owner faction="boron" />
       <owner faction="player" />
     </ware>
-	<ware id="weapon_bor_m_laser_02_mk1" name="{20105,2404}" description="{20105,2402}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+
+    <ware id="weapon_bor_m_laser_02_mk1" name="{20105,2404}" description="{20105,2402}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
       <price min="67261" average="89681" max="114792" />
       <production time="10" amount="1" method="default" name="{20206,801}">
         <primary>
@@ -78,7 +82,8 @@
       <owner faction="boron" />
       <owner faction="player" />
     </ware>
-	<ware id="weapon_bor_s_laser_02_mk1" name="{20105,1404}" description="{20105,1402}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+
+    <ware id="weapon_bor_s_laser_02_mk1" name="{20105,1404}" description="{20105,1402}" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
       <price min="67261" average="89681" max="114792" />
       <production time="10" amount="1" method="default" name="{20206,801}">
         <primary>
@@ -94,7 +99,8 @@
       <owner faction="player" />
     </ware>
 
-	<ware id="weapon_bor_s_laser_super_01_mk1" name="Boron Khaak S Laser MK3" description="Advanced Boron laser weapon with enhanced range and damage output" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+    <!-- MK3 super line: player stations only (not Boron NPC economy) -->
+    <ware id="weapon_bor_s_laser_super_01_mk1" name="Boron Khaak S Laser MK3" description="Advanced Boron laser weapon with enhanced range and damage output" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
       <price min="120000" average="150000" max="180000" />
       <production time="10" amount="1" method="default" name="Universal">
         <primary>
@@ -106,11 +112,10 @@
       <component ref="weapon_bor_s_laser_super_01_mk1_macro" amount="1"/>
       <restriction licence="generaluseequipment" />
       <use threshold="0" />
-      <owner faction="boron" />
-	  <owner faction="player" />
+      <owner faction="player" />
     </ware>
 
-	<ware id="weapon_bor_m_laser_super_01_mk1" name="Boron Khaak M Laser MK3" description="Advanced Boron medium laser weapon with enhanced range and damage output" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
+    <ware id="weapon_bor_m_laser_super_01_mk1" name="Boron Khaak M Laser MK3" description="Advanced Boron medium laser weapon with enhanced range and damage output" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
       <price min="180000" average="220000" max="260000" />
       <production time="15" amount="1" method="default" name="Universal">
         <primary>
@@ -122,11 +127,10 @@
       <component ref="weapon_bor_m_laser_super_01_mk1_macro" amount="1"/>
       <restriction licence="generaluseequipment" />
       <use threshold="0" />
-      <owner faction="boron" />
-	  <owner faction="player" />
+      <owner faction="player" />
     </ware>
 
-	<ware id="turret_bor_m_laser_super_01_mk1" name="Boron Khaak M Turret MK3" description="Advanced Boron medium turret with devastating laser firepower" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+    <ware id="turret_bor_m_laser_super_01_mk1" name="Boron Khaak M Turret MK3" description="Advanced Boron medium turret with devastating laser firepower" group="turrets" transport="equipment" volume="1" tags="equipment turret">
       <price min="250000" average="300000" max="350000" />
       <production time="20" amount="1" method="default" name="Universal">
         <primary>
@@ -138,11 +142,10 @@
       <component ref="turret_bor_m_laser_super_01_mk1_macro" amount="1"/>
       <restriction licence="generaluseequipment" />
       <use threshold="0" />
-      <owner faction="boron" />
-	  <owner faction="player" />
+      <owner faction="player" />
     </ware>
 
-	<ware id="turret_bor_l_laser_super_01_mk1" name="Boron Khaak L Turret MK3" description="Advanced Boron large turret with devastating laser firepower" group="turrets" transport="equipment" volume="1" tags="equipment turret">
+    <ware id="turret_bor_l_laser_super_01_mk1" name="Boron Khaak L Turret MK3" description="Advanced Boron large turret with devastating laser firepower" group="turrets" transport="equipment" volume="1" tags="equipment turret">
       <price min="450000" average="550000" max="650000" />
       <production time="30" amount="1" method="default" name="Universal">
         <primary>
@@ -154,11 +157,9 @@
       <component ref="turret_bor_l_laser_super_01_mk1_macro" amount="1"/>
       <restriction licence="generaluseequipment" />
       <use threshold="0" />
-      <owner faction="boron" />
-	  <owner faction="player" />
+      <owner faction="player" />
     </ware>
 
   </add>
-
 
 </diff>
