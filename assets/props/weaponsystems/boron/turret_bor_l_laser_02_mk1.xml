@@ -62,7 +62,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="con_turret_01" tags="advanced combat component large turret " />
+      <connection name="con_turret_01" tags="combat component large turret " />
       <connection name="ConnectionForfx_socket_decals" tags="detail_m forceoutline fx nocollision part ">
         <offset>
           <position x="0.05428725" y="0.9644833" z="0.8642654" />

@@ -9,7 +9,7 @@
     <connections>
       <connection name="container" tags="contents" value="0" />
       <connection name="position" tags="position" value="1" />
-      <connection name="con_turret" tags="advanced combat component hittable medium turret " />
+      <connection name="con_turret" tags="combat component hittable medium turret " />
       <connection name="ConnectionForpart_socket" tags="animation part ">
         <offset>
           <position x="7.195e-07" y="0.4634921" z="0.1251084" />

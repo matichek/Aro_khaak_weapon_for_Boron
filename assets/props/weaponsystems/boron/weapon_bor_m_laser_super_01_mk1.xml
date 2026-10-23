@@ -8,7 +8,7 @@
     </layers>
     <connections>
       <connection name="position" tags="position" value="1" />
-      <connection name="con_weapon_01" tags="advanced combat component medium weapon ">
+      <connection name="con_weapon_01" tags="combat component medium weapon ">
         <offset>
           <position x="5.1e-09" y="-0.0150277" z="-0.00507474" />
         </offset>

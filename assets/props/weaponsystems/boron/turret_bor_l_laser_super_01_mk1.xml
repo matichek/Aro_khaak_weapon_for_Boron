@@ -96,7 +96,7 @@
           <position x="5.89e-07" y="0" z="35.83528" />
         </offset>
       </connection>
-      <connection name="con_turret_01" tags="advanced combat component large turret " />
+      <connection name="con_turret_01" tags="combat component large turret " />
       <connection name="con_aimtarget_01" tags="aimtarget ">
         <offset>
           <position x="0" y="5.358225" z="-2.731964" />

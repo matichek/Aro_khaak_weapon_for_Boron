@@ -107,7 +107,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="con_weapon_01" tags="advanced combat component small primary weapon " />
+      <connection name="con_weapon_01" tags="combat component small weapon " />
       <connection name="con_laser_01" tags="laser " parent="part_gun">
         <offset>
           <position x="1.5e-09" y="0.0895971" z="2.054415" />

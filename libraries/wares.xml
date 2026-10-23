@@ -14,8 +14,9 @@
       </production>
       <component ref="weapon_bor_l_beam_02_mk1_macro" amount="1"/>
       <restriction licence="generaluseequipment"/>
-      <use threshold="0"/>
-      <owner faction="boron"/>
+      <use threshold="0" factions="player"/>
+      <owner faction="argon" />
+      <owner faction="boron" />
       <owner faction="player" />
     </ware>
 
@@ -30,7 +31,8 @@
       </production>
       <component ref="turret_bor_l_laser_02_mk1_macro" amount="1"/>
       <restriction licence="generaluseequipment" />
-      <use threshold="0" />
+      <use threshold="0" factions="player" />
+      <owner faction="argon" />
       <owner faction="boron" />
       <owner faction="player" />
     </ware>
@@ -46,7 +48,8 @@
       </production>
       <component ref="turret_bor_m_laser_03_mk1_macro" amount="1"/>
       <restriction licence="generaluseequipment" />
-      <use threshold="0" />
+      <use threshold="0" factions="player" />
+      <owner faction="argon" />
       <owner faction="boron" />
       <owner faction="player" />
     </ware>
@@ -62,7 +65,8 @@
       </production>
       <component ref="turret_bor_m_laser_04_mk1_macro" amount="1"/>
       <restriction licence="generaluseequipment" />
-      <use threshold="0" />
+      <use threshold="0" factions="player" />
+      <owner faction="argon" />
       <owner faction="boron" />
       <owner faction="player" />
     </ware>
@@ -78,7 +82,8 @@
       </production>
       <component ref="weapon_bor_m_laser_02_mk1_macro" amount="1"/>
       <restriction licence="generaluseequipment" />
-      <use threshold="0" />
+      <use threshold="0" factions="player" />
+      <owner faction="argon" />
       <owner faction="boron" />
       <owner faction="player" />
     </ware>
@@ -94,12 +99,13 @@
       </production>
       <component ref="weapon_bor_s_laser_02_mk1_macro" amount="1"/>
       <restriction licence="generaluseequipment" />
-      <use threshold="0" />
+      <use threshold="0" factions="player" />
+      <owner faction="argon" />
       <owner faction="boron" />
       <owner faction="player" />
     </ware>
 
-    <!-- MK3 super line: player stations only (not Boron NPC economy) -->
+    <!-- Khaak-enhanced line: Argon/Boron/Player stations can equip; AI fleets do not auto-equip (factions="player" on <use>) -->
     <ware id="weapon_bor_s_laser_super_01_mk1" name="Boron Khaak S Laser MK3" description="Advanced Boron laser weapon with enhanced range and damage output" group="weapons" transport="equipment" volume="1" tags="equipment weapon">
       <price min="120000" average="150000" max="180000" />
       <production time="10" amount="1" method="default" name="Universal">
@@ -111,7 +117,9 @@
       </production>
       <component ref="weapon_bor_s_laser_super_01_mk1_macro" amount="1"/>
       <restriction licence="generaluseequipment" />
-      <use threshold="0" />
+      <use threshold="0" factions="player" />
+      <owner faction="argon" />
+      <owner faction="boron" />
       <owner faction="player" />
     </ware>
 
@@ -126,7 +134,9 @@
       </production>
       <component ref="weapon_bor_m_laser_super_01_mk1_macro" amount="1"/>
       <restriction licence="generaluseequipment" />
-      <use threshold="0" />
+      <use threshold="0" factions="player" />
+      <owner faction="argon" />
+      <owner faction="boron" />
       <owner faction="player" />
     </ware>
 
@@ -141,7 +151,9 @@
       </production>
       <component ref="turret_bor_m_laser_super_01_mk1_macro" amount="1"/>
       <restriction licence="generaluseequipment" />
-      <use threshold="0" />
+      <use threshold="0" factions="player" />
+      <owner faction="argon" />
+      <owner faction="boron" />
       <owner faction="player" />
     </ware>
 
@@ -156,7 +168,9 @@
       </production>
       <component ref="turret_bor_l_laser_super_01_mk1_macro" amount="1"/>
       <restriction licence="generaluseequipment" />
-      <use threshold="0" />
+      <use threshold="0" factions="player" />
+      <owner faction="argon" />
+      <owner faction="boron" />
       <owner faction="player" />
     </ware>
 

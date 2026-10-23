@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<mdscript name="Aro_Khaak_Argon_Prime_Vendor" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+  <cues>
+    <!-- Kyon-Blue catalog: Argon Prime wharf + shipyard only (player faction wares, not Argon military economy). -->
+    <cue name="Init_Vendor" instantiate="true">
+      <conditions>
+        <check_any>
+          <event_cue_signalled cue="md.Setup.Start"/>
+          <event_game_loaded/>
+        </check_any>
+      </conditions>
+      <delay exact="1s"/>
+      <actions>
+        <find_station name="$Wharf" godstationentry="'wharf_argon_01'" space="player.galaxy"/>
+        <find_station name="$Shipyard" godstationentry="'shipyard_argon_01'" space="player.galaxy"/>
+        <set_value name="$KhaakWares" exact="[
+          ware.weapon_bor_l_beam_02_mk1,
+          ware.weapon_bor_s_laser_02_mk1,
+          ware.weapon_bor_m_laser_02_mk1,
+          ware.turret_bor_l_laser_02_mk1,
+          ware.turret_bor_m_laser_03_mk1,
+          ware.turret_bor_m_laser_04_mk1,
+          ware.weapon_bor_s_laser_super_01_mk1,
+          ware.weapon_bor_m_laser_super_01_mk1,
+          ware.turret_bor_m_laser_super_01_mk1,
+          ware.turret_bor_l_laser_super_01_mk1
+        ]"/>
+        <add_blueprints wares="$KhaakWares"/>
+        <do_if value="$Wharf.exists">
+          <signal_cue_instantly cue="Stock_Khaak_Station" param="table[$Station = $Wharf]"/>
+        </do_if>
+        <do_if value="$Shipyard.exists">
+          <signal_cue_instantly cue="Stock_Khaak_Station" param="table[$Station = $Shipyard]"/>
+        </do_if>
+      </actions>
+    </cue>
+
+    <cue name="Stock_Khaak_Station" instantiate="true">
+      <conditions>
+        <event_cue_signalled/>
+      </conditions>
+      <actions>
+        <set_value name="$Station" exact="event.param.$Station"/>
+        <do_if value="$Station.cargo.{ware.advancedelectronics}.count lt 500">
+          <add_wares object="$Station" ware="ware.advancedelectronics" exact="500"/>
+        </do_if>
+        <do_if value="$Station.cargo.{ware.energycells}.count lt 2000">
+          <add_wares object="$Station" ware="ware.energycells" exact="2000"/>
+        </do_if>
+        <do_if value="$Station.cargo.{ware.weaponcomponents}.count lt 1000">
+          <add_wares object="$Station" ware="ware.weaponcomponents" exact="1000"/>
+        </do_if>
+        <do_if value="$Station.cargo.{ware.turretcomponents}.count lt 1000">
+          <add_wares object="$Station" ware="ware.turretcomponents" exact="1000"/>
+        </do_if>
+      </actions>
+    </cue>
+  </cues>
+</mdscript>

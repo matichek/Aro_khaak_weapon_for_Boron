@@ -9,7 +9,7 @@
     <connections>
       <connection name="container" tags="contents" value="0" />
       <connection name="position" tags="position" value="1" />
-      <connection name="con_turret" tags="advanced combat component medium turret unhittable " />
+      <connection name="con_turret" tags="combat component medium turret unhittable " />
       <connection name="ConnectionForpart_arm" tags="animation forceoutline nocollision part ">
         <offset>
           <position x="0" y="-1.805568" z="3.072944" />
