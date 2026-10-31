@@ -26,7 +26,7 @@
           </part>
         </parts>
       </connection>
-      <connection name="ConnectionForpart_main" tags="forceoutline part platformcollision ">
+      <connection name="ConnectionForpart_main" tags="forceoutline nocollision part ">
         <parts>
           <part name="part_main" wreck="part_main_wreck">
             <size>

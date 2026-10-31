@@ -8,7 +8,7 @@
     <connections>
       <connection name="container" tags="contents" value="0" />
       <connection name="position" tags="position" value="1" />
-      <connection name="ConnectionForpart_socket" tags="animation part ">
+      <connection name="ConnectionForpart_socket" tags="animation nocollision part ">
         <offset>
           <position x="7.195e-07" y="0.4634921" z="0.1251084" />
         </offset>
